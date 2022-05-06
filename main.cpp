@@ -1,11 +1,7 @@
 #include "Program.h"
 
 int main() {
-    constexpr int WIDTH = 900;
-    constexpr int HEIGHT = 700;
-    constexpr int SCALE = 2;
-
-    sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "StudentProject");
+    sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "bugs");
     window.setFramerateLimit(60);
 
     Program program;
